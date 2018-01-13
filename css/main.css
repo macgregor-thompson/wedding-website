@@ -1,0 +1,7 @@
+body {
+    background: url('../img/family.jpg') center center fixed !important;
+    -webkit-background: cover !important;
+    -moz-background: cover !important;
+    background-size: cover !important;
+
+}
