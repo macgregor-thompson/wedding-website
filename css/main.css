@@ -1,7 +1,51 @@
-body {
-    background: url('../img/family.jpg') center center fixed !important;
-    -webkit-background: cover !important;
-    -moz-background: cover !important;
-    background-size: cover !important;
+/* May need this for google maps, and others...check bootstrap 4 getting started page */
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
 
+#first-section {
+    background: url('../img/resized/family.png') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+    min-height: 900px;
+}
+
+#first-section.image-loaded {
+    background: url('../img/family.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+}
+
+#second-section {
+    min-height: 500px;
+    background-color: #fff;
+}
+
+#third-section {
+    background: url('../img/resized/proposal.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+    min-height: 400px;
+}
+
+#third-section.image-loaded {
+    background: url('../img/proposal.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+}
+
+/* Helper Utils  */
+
+.top-space-50 {
+    margin-top: 50px;
+}
+
+/* End Helper Utils */
+
+#fifth-section {
+    min-height: 300px;
 }
