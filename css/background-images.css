@@ -33,10 +33,6 @@
     background-size: cover;
 }
 
-#fourth-section {
-    background-color: #eee;
-}
-
 #fifth-section {
     background: url('../img/resized/ceremony.png') center center fixed;
     -webkit-background: cover;
@@ -52,9 +48,4 @@
     background-size: cover;
 }
 
-#sixth-section {
-    background-color: #666;
-    color: #fff;
-    text-shadow: 1px 1px 2px #333;
-    margin: 20px auto;
-}
+

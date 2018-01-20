@@ -6,15 +6,18 @@
   xl: 1200px+
  */
 
-/* May need this for google maps, and others...check bootstrap 4 getting started page */
-.selector-for-some-widget {
-    box-sizing: content-box;
-}
-
 body {
     font-family: 'Risque', cursive;
-    background-color: #666;
+    background-color: #343a40;
+}
 
+#fourth-section {
+    background-color: #eee;
+}
+#sixth-section {
+    color: #fff;
+    text-shadow: 1px 1px 2px #333;
+    margin: 20px auto;
 }
 
 .great-vibes {
@@ -92,3 +95,4 @@ a.no-link, a.no-link:hover {
     padding-top: 150px;
     text-shadow: 2px 2px 4px #333;
 }
+

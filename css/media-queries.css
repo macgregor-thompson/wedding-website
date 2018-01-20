@@ -44,19 +44,19 @@
     }
 
     .top-nav a.event-details:hover {
-        padding: .5rem 0.3rem;
+        padding: .5rem 0.3rem 0;
     }
 
     .top-nav a.accommodations:hover {
-        padding: .5rem 0.1rem;
+        padding: .5rem 0.1rem 0;
     }
 
     .top-nav a.transportation:hover {
-        padding: .5rem 0.2rem;
+        padding: .5rem 0.2rem 0;
     }
 
     .top-nav a.gallery:hover {
-        padding: .5rem 0.62rem;
+        padding: .5rem 0.62rem 0;
     }
 
     .visible-xl, .visible-lg, .visible-sm, .visible-xs {
@@ -81,19 +81,19 @@
     }
 
     .top-nav a.event-details:hover {
-        padding: .5rem 0.3rem;
+        padding: .5rem 0.3rem 0;
     }
 
     .top-nav a.accommodations:hover {
-        padding: .5rem 0.1rem;
+        padding: .5rem 0.1rem 0;
     }
 
     .top-nav a.transportation:hover {
-        padding: .5rem 0.2rem;
+        padding: .5rem 0.2rem 0;
     }
 
     .top-nav a.gallery:hover {
-        padding: .5rem 0.62rem;
+        padding: .5rem 0.62rem 0;
     }
 
     .visible-xl, .visible-md, .visible-sm, .visible-xs {
@@ -109,24 +109,28 @@
 /* ---------    xl     --------- */
 @media screen and (min-width: 1200px) {
 
+    .top-nav a {
+        font-size: 1.75rem;
+    }
+
     .top-nav a:hover {
         font-size: 2rem;
     }
 
     .top-nav a.event-details:hover {
-        padding: .5rem 0.3rem;
+        padding: .5rem 0.3rem 0;
     }
 
     .top-nav a.accommodations:hover {
-        padding: .5rem 0.1rem;
+        padding: .5rem 0.1rem 0;
     }
 
     .top-nav a.transportation:hover {
-        padding: .5rem 0.2rem;
+        padding: .5rem 0.2rem 0;
     }
 
     .top-nav a.gallery:hover {
-        padding: .5rem 0.62rem;
+        padding: .5rem 0.62rem 0;
     }
 
     .visible-lg, .visible-md, .visible-sm, .visible-xs {
