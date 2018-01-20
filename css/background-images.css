@@ -1,0 +1,60 @@
+#first-section {
+    background: url('../img/resized/family.png') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+#first-section.image-loaded {
+    background: url('../img/family.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+}
+
+#second-section {
+    min-height: 500px;
+    background-color: #fff;
+}
+
+#third-section {
+    background: url('../img/resized/proposal.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+#third-section.image-loaded {
+    background: url('../img/proposal.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+}
+
+#fourth-section {
+    background-color: #eee;
+}
+
+#fifth-section {
+    background: url('../img/resized/ceremony.png') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+    height: 900px;
+}
+
+#fifth-section.image-loaded {
+    background: url('../img/ceremony.jpg') center center fixed;
+    -webkit-background: cover;
+    -moz-background: cover;
+    background-size: cover;
+}
+
+#sixth-section {
+    background-color: #666;
+    color: #fff;
+    text-shadow: 1px 1px 2px #333;
+    margin: 20px auto;
+}

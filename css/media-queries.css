@@ -1,0 +1,139 @@
+/* Break Points
+  xs: 0 - 575px
+  sm: 576px - 767px
+  md: 768px - 991px
+  lg: 992px - 1199px
+  xl: 1200px+
+ */
+
+/* ---------    xs    --------- */
+@media screen and (max-width: 575px) {
+
+    .visible-xl, .visible-lg, .visible-md, .visible-sm {
+        display: none;
+    }
+
+    .visible-xs {
+        display: block;
+    }
+
+}
+
+/* ---------    sm    --------- */
+@media screen and (max-width: 767px) and (min-width: 576px) {
+
+    .visible-xl, .visible-lg, .visible-md, .visible-xs {
+        display: none;
+    }
+
+    .visible-sm {
+        display: block;
+    }
+
+}
+
+/* ---------    md     --------- */
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+    .top-nav a {
+        font-size: 1rem;
+    }
+
+    .top-nav a:hover {
+        font-size: 1.25rem;
+    }
+
+    .top-nav a.event-details:hover {
+        padding: .5rem 0.3rem;
+    }
+
+    .top-nav a.accommodations:hover {
+        padding: .5rem 0.1rem;
+    }
+
+    .top-nav a.transportation:hover {
+        padding: .5rem 0.2rem;
+    }
+
+    .top-nav a.gallery:hover {
+        padding: .5rem 0.62rem;
+    }
+
+    .visible-xl, .visible-lg, .visible-sm, .visible-xs {
+        display: none;
+    }
+
+    .visible-md {
+        display: block;
+    }
+
+}
+
+/* ---------    lg    --------- */
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+    .top-nav a {
+        font-size: 1.50rem;
+    }
+
+    .top-nav a:hover {
+        font-size: 1.75rem;
+    }
+
+    .top-nav a.event-details:hover {
+        padding: .5rem 0.3rem;
+    }
+
+    .top-nav a.accommodations:hover {
+        padding: .5rem 0.1rem;
+    }
+
+    .top-nav a.transportation:hover {
+        padding: .5rem 0.2rem;
+    }
+
+    .top-nav a.gallery:hover {
+        padding: .5rem 0.62rem;
+    }
+
+    .visible-xl, .visible-md, .visible-sm, .visible-xs {
+        display: none;
+    }
+
+    .visible-lg {
+        display: block;
+    }
+
+}
+
+/* ---------    xl     --------- */
+@media screen and (min-width: 1200px) {
+
+    .top-nav a:hover {
+        font-size: 2rem;
+    }
+
+    .top-nav a.event-details:hover {
+        padding: .5rem 0.3rem;
+    }
+
+    .top-nav a.accommodations:hover {
+        padding: .5rem 0.1rem;
+    }
+
+    .top-nav a.transportation:hover {
+        padding: .5rem 0.2rem;
+    }
+
+    .top-nav a.gallery:hover {
+        padding: .5rem 0.62rem;
+    }
+
+    .visible-lg, .visible-md, .visible-sm, .visible-xs {
+        display: none;
+    }
+
+    .visible-xl {
+        display: block;
+    }
+}
