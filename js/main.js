@@ -10,6 +10,9 @@
     return false;
   });
 
+  $('[data-fancybox]').fancybox({
+    loop: true
+  });
 
   $('.back-to-top').on('click', function () {
     $('html, body').animate({
