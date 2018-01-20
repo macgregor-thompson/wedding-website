@@ -11,7 +11,19 @@
   });
 
   $('[data-fancybox]').fancybox({
-    loop: true
+    loop: true,
+    buttons : [
+      'slideShow',
+      'fullScreen',
+      'thumbs',
+      'share',
+      'download',
+      'zoom',
+      'close'
+    ],
+    transitionEffect : 'rotate',
+    transitionDuration : 1000
+
   });
 
   $('.back-to-top').on('click', function () {

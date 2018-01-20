@@ -20,6 +20,10 @@ body {
     margin: 20px auto;
 }
 
+.hidden {
+    display: none;
+}
+
 .great-vibes {
     font-family: 'Great Vibes', cursive;
 
