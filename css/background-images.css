@@ -1,51 +1,58 @@
-#first-section {
-    background: url('../img/resized/family.png') center center fixed;
-    -webkit-background: cover;
-    -moz-background: cover;
-    background-size: cover;
-    height: 900px;
+/* Break Points
+  xs: 0 - 575px
+  sm: 576px - 767px
+  md: 768px - 991px
+  lg: 992px - 1199px
+  xl: 1200px+
+ */
+@media screen and (min-width: 768px) {
+    #first-section {
+        background: url('../img/resized/family.png');
+        height: 900px;
+        -webkit-background: cover;
+        -moz-background: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    #second-section {
+        min-height: 500px;
+        background-color: #fff;
+    }
+
+    #third-section {
+        background: url('../img/resized/proposal.jpg');
+        -webkit-background: cover;
+        -moz-background: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height: 600px;
+    }
+    #fifth-section {
+        background: url('../img/resized/ceremony.png');
+        -webkit-background: cover;
+        -moz-background: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height: 900px;
+    }
+
 }
 
-#first-section.image-loaded {
-    background: url('../img/family.jpg') center center fixed;
-    -webkit-background: cover;
-    -moz-background: cover;
-    background-size: cover;
-}
-
-#second-section {
-    min-height: 500px;
-    background-color: #fff;
-}
-
-#third-section {
-    background: url('../img/resized/proposal.jpg') center center fixed;
-    -webkit-background: cover;
-    -moz-background: cover;
-    background-size: cover;
-    height: 600px;
-}
-
-#third-section.image-loaded {
-    background: url('../img/proposal.jpg') center center fixed;
-    -webkit-background: cover;
-    -moz-background: cover;
-    background-size: cover;
-}
-
-#fifth-section {
-    background: url('../img/resized/ceremony.png') center center fixed;
-    -webkit-background: cover;
-    -moz-background: cover;
-    background-size: cover;
-    height: 900px;
-}
-
-#fifth-section.image-loaded {
-    background: url('../img/ceremony.jpg') center center fixed;
-    -webkit-background: cover;
-    -moz-background: cover;
-    background-size: cover;
-}
 
 

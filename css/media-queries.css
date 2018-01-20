@@ -17,6 +17,10 @@
         display: block;
     }
 
+    .hidden-xs {
+        display: none;
+    }
+
 }
 
 /* ---------    sm    --------- */
@@ -28,6 +32,10 @@
 
     .visible-sm {
         display: block;
+    }
+
+    .hidden-sm {
+        display: none;
     }
 
 }
@@ -67,6 +75,10 @@
         display: block;
     }
 
+    .hidden-md {
+        display: none;
+    }
+
 }
 
 /* ---------    lg    --------- */
@@ -103,6 +115,9 @@
     .visible-lg {
         display: block;
     }
+    .hidden-lg {
+        display: none;
+    }
 
 }
 
@@ -138,6 +153,23 @@
     }
 
     .visible-xl {
+        display: block;
+    }
+    .hidden-xl {
+        display: none;
+    }
+}
+
+/* ---------    sm+     --------- */
+@media screen and (min-width: 576px) {
+    .visible-sm-plus {
+        display: block;
+    }
+}
+
+/* ---------    md+     --------- */
+@media screen and (min-width: 768px) {
+    .visible-md-plus {
         display: block;
     }
 }
