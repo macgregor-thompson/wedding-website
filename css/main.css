@@ -43,9 +43,61 @@ a.no-link, a.no-link:hover {
     font-size: 1.75rem;
 }
 
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 89% !important;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.transport-alert {
+    margin-bottom: 0;
+}
+
+.transport-section {
+    padding-bottom: 20px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .visible-lg {
+        display: none;
+    }
+
+    .hidden-lg {
+        display: block;
+    }
+
+}
+
 
 
 @media screen and (min-width: 1200px) {
+
+    .visible-lg {
+        display: block;
+    }
+
+    .hidden-lg {
+        display: none;
+    }
 
     .top-nav a:hover {
         font-size: 2rem;
@@ -76,7 +128,7 @@ a.no-link, a.no-link:hover {
     -webkit-background: cover;
     -moz-background: cover;
     background-size: cover;
-    height: 900px;
+    height: 800px;
 }
 
 #first-section.image-loaded {
