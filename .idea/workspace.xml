@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bc5c142-9928-4eb4-bc75-31e8d2f9708e" name="Default" comment="add all the images">
-      <change beforePath="$PROJECT_DIR$/css/background-images.css" afterPath="$PROJECT_DIR$/css/background-images.css" />
-      <change beforePath="$PROJECT_DIR$/gallery/index.html" afterPath="$PROJECT_DIR$/gallery/index.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-    </list>
+    <list default="true" id="8bc5c142-9928-4eb4-bc75-31e8d2f9708e" name="Default" comment="add all the images" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
+            <state relative-caret-position="147">
+              <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -139,6 +134,7 @@
       <find>data-fancybox</find>
       <find>hilton</find>
       <find>top</find>
+      <find>book</find>
     </findStrings>
     <replaceStrings>
       <replace>engagement</replace>
@@ -290,7 +286,7 @@
       <workItem from="1516200875993" duration="365000" />
       <workItem from="1516201339762" duration="9000" />
       <workItem from="1516326041701" duration="1322000" />
-      <workItem from="1516385078830" duration="38897000" />
+      <workItem from="1516385078830" duration="39136000" />
     </task>
     <task id="LOCAL-00001" summary="check in .idea">
       <created>1515848573006</created>
@@ -317,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53372000" />
+    <option name="totallyTimeSpent" value="53611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
+        <state relative-caret-position="147">
+          <caret line="166" column="52" lean-forward="false" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
