@@ -1,0 +1,24 @@
+.top-row {
+    padding: .75rem;
+}
+
+.back-link {
+    color: #fff;
+}
+
+.back-link:visited, .back-link:hover, .back-link:active {
+    text-decoration: none;
+}
+
+.back-link:hover, .back-link:active {
+    color: #b4b4b4;
+}
+
+#registry-section {
+}
+
+.smiley-color {
+
+}
+
+
