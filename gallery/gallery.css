@@ -24,3 +24,7 @@ body {
 .info-link:hover, .info-link:active {
     color: #b4b4b4;
 }
+
+.gallery-alert {
+    border-radius: 0;
+}

@@ -22,7 +22,10 @@
       'close'
     ],
     transitionEffect : 'rotate',
-    transitionDuration : 1000
+    transitionDuration : 1000,
+    thumbs : {
+      autoStart   : true
+    }
 
   });
 
