@@ -35,7 +35,22 @@
 </head>
 <body>
 <div class="section first" id="first-section">
-    <div class="row no-gutters text-center align-items-center top-row text-white gallery-nav">
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="../" class="back-link">
+            <i class="fas fa-chevron-double-left"></i>
+            Go Back
+        </a>
+        <div class="col text-center">
+            <h1 class="navbar-text text-white">
+                Photo Gallery
+            </h1>
+        </div>
+        <a class="info-link" data-toggle="collapse" href="#collapse-alert" role="button"
+           aria-expanded="false" aria-controls="collapse-alert">
+            <i class="fas fa-info-circle"></i>
+        </a>
+    </nav>
+   <!-- <div class="row no-gutters text-center align-items-center top-row text-white gallery-nav">
         <div class="col">
             <h5>
                 <a href="../" class="back-link">
@@ -54,10 +69,16 @@
                 (click an image to zoom)
             </h5>
         </div>
-    </div>
+    </div>-->
 </div>
 
-
+<div class="alert alert-info collapse text-center arial " id="collapse-alert">
+    <i class="fas fa-info-circle"></i>
+    Click on an image to to zoom, start a slide show, and more...
+    <a class="close" data-toggle="collapse" href="#collapse-alert" role="button" aria-expanded="false" aria-controls="collapse-alert">
+        <i class="fas fa-times-circle"></i>
+    </a>
+</div>
 <div class="photo-gallery">
     <div class="row no-gutters text-center">
         <div class="col-md-4">

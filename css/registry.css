@@ -4,6 +4,8 @@
 
 .back-link {
     color: #fff;
+    position: absolute;
+    z-index: 1000;
 }
 
 .back-link:visited, .back-link:hover, .back-link:active {
