@@ -4,20 +4,20 @@
   md: 768px - 991px
   lg: 992px - 1199px
   xl: 1200px+
+
+  ipad air: 768 x 1024
+  iphone X: 375 x 724
  */
+
+/* ---------    md+     --------- */
 @media screen and (min-width: 768px) {
     #first-section {
-        background: url('../img/resized/family.png');
-        height: 900px;
-        -webkit-background: cover;
-        -moz-background: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-image: url('../img/resized/family.png');
         background-attachment: fixed;
         background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
     }
 
     #second-section {
@@ -26,33 +26,70 @@
     }
 
     #third-section {
-        background: url('../img/resized/proposal.jpg');
-        -webkit-background: cover;
-        -moz-background: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-image: url('../img/resized/proposal.jpg');
         background-attachment: fixed;
         background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 600px;
     }
+
     #fifth-section {
-        background: url('../img/resized/ceremony.png');
-        -webkit-background: cover;
-        -moz-background: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-image: url('../img/resized/ceremony.png');
         background-attachment: fixed;
         background-position: center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 900px;
     }
+}
+
+/* Turn the shit off for tablets and mobile devices */
+@media only screen and (max-device-width: 1024px) {
+    #first-section, #third-section, #fifth-section {
+        background-attachment: scroll;
+    }
+}
+
+/*!* ---------    xs    --------- *!
+@media screen and (max-width: 575px) {
 
 }
+
+!* ---------    sm    --------- *!
+@media screen and (max-width: 767px) and (min-width: 576px) {
+}
+
+!* ---------    md     --------- *!
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+}
+
+!* ---------    lg    --------- *!
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+!* ---------    sm+     --------- *!
+@media screen and (min-width: 576px) {
+}
+
+!* ---------    lg -     --------- *!
+@media screen and (max-width: 991px) {
+
+}
+
+!* ---------    lg+     --------- *!
+@media screen and (min-width: 992px) {
+
+}
+
+!* ---------    xl     --------- *!
+@media screen and (min-width: 1200px) {
+
+}*/
+
+
 
 
 

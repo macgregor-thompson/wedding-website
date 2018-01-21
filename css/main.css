@@ -87,12 +87,13 @@ a.no-link, a.no-link:hover {
     background-color: #fff;
 }
 
-
-
 .main-header {
     padding-top: 25px;
 }
 
+.page-alert {
+    border-radius: 0;
+}
 
 .see-yall-there {
     color: #dc3545 !important;
