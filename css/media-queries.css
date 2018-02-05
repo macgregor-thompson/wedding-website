@@ -29,6 +29,9 @@
     .gallery-nav h5.click {
         font-size: .5rem;
     }
+    .navbar-page-title {
+        font-size: 1.5rem;
+    }
 }
 
 /* ---------    sm    --------- */
