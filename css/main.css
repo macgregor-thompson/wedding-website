@@ -11,7 +11,7 @@ body {
     background-color: #343a40;
 }
 
-#fourth-section {
+#second-section, #fourth-section {
     background-color: #eee;
 }
 #sixth-section {
@@ -99,5 +99,13 @@ a.no-link, a.no-link:hover {
     color: #dc3545 !important;
     padding-top: 150px;
     text-shadow: 2px 2px 4px #333;
+}
+
+
+.contact-us {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 15000;
 }
 
