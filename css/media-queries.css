@@ -9,6 +9,13 @@
   iphone X: 375 x 724
  */
 
+@media screen and (max-width: 410px) {
+    .hotel-address, .hotel-alert {
+        font-size: .9rem;
+        padding: .25rem;
+    }
+}
+
 /* ---------    xs    --------- */
 @media screen and (max-width: 575px) {
     .visible-xl, .visible-lg, .visible-md, .visible-sm {
