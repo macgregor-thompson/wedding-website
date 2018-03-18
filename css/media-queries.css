@@ -69,7 +69,7 @@
         font-size: 1.25rem;
     }
     .top-nav a.event-details:hover {
-        padding: .5rem 0.3rem 0;
+        padding: .5rem 0.15rem 0;
     }
     .top-nav a.accommodations:hover {
         padding: .5rem 0.1rem 0;
@@ -103,7 +103,7 @@
         font-size: 1.75rem;
     }
     .top-nav a.event-details:hover {
-        padding: .5rem 0.3rem 0;
+        padding: .5rem 0.15rem 0;
     }
     .top-nav a.accommodations:hover {
         padding: .5rem 0.1rem 0;
@@ -137,7 +137,7 @@
         font-size: 2rem;
     }
     .top-nav a.event-details:hover {
-        padding: .5rem 0.3rem 0;
+        padding: .5rem 0.15rem 0;
     }
     .top-nav a.accommodations:hover {
         padding: .5rem 0.1rem 0;
