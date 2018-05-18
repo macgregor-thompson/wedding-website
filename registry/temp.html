@@ -51,7 +51,19 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <div class="card bg-dark">
+                <div class="card bg-dark registry-card">
+                    <img class="card-img-top bg-white" src="img/bbb1.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <a class="btn btn-lg btn-danger" target="_blank"
+                           href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_owner.jsp?registryId=545836517&eventType=Wedding&_requestid=1637030#t=myItems">
+                            <i class="fas fa-paper-plane"></i>
+                            Go to registry
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark registry-card">
                     <img class="card-img-top" src="img/amazon.jpg" alt="Card image cap">
                     <div class="card-body text-center">
                         <a class="btn btn-lg btn-danger" target="_blank"
@@ -61,11 +73,18 @@
                         </a>
                     </div>
                 </div>
-
             </div>
             <div class="col">
-            </div>
-            <div class="col">
+                <div class="card bg-dark registry-card">
+                    <img class="card-img-top bg-white" src="img/design1.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <a class="btn btn-lg btn-danger" target="_blank"
+                           href="https://designimagesaugusta.com/shop/index.php?route=giftregistry/gift/products&gift_id=93">
+                            <i class="fas fa-paper-plane"></i>
+                            Go to registry
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -97,7 +116,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 
 <script src="../js/main.js"></script>
+<script>
+  function cardHeights() {
+    var cards = $('.registry-card');
+    cards.height('');
+    var maxHeight = Math.max.apply(Math, cards.map(function () {
+      return $(this).height();
+    }).get());
+    cards.height(maxHeight + 10);
+  }
 
+  $(function() {
+    //cardHeights();
+  })();
+
+  $(window).on('resize', function () {
+    //cardHeights();
+  });
+</script>
 
 </body>
 </html>

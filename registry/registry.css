@@ -27,4 +27,8 @@ body {
 
 }
 
-
+.registry-card:hover {
+    -webkit-box-shadow: 2px 8px 4px #2983C5;
+    -moz-box-shadow: 2px 2px 8px 4px #2983C5;
+    box-shadow: 2px 2px 8px 4px #2983C5;
+}
