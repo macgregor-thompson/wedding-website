@@ -1,0 +1,26 @@
+.top-row {
+    padding: .75rem;
+}
+
+.back-link, .info-link {
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+}
+
+.info-link {
+    right: 15px;
+}
+
+.back-link:visited, .back-link:hover, .back-link:active {
+    text-decoration: none;
+}
+
+.back-link:hover, .back-link:active,
+.info-link:hover, .info-link:active {
+    color: #b4b4b4;
+}
+
+.gallery-alert {
+    border-radius: 0;
+}
