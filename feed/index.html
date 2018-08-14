@@ -53,8 +53,20 @@
 </div>
 
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-31c402df-518b-4a96-913a-ab42e2ac26fa"></div>
+<!--<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-31c402df-518b-4a96-913a-ab42e2ac26fa"></div>-->
+
+<div id="instafeed"></div>
+
+<script src="instafeed.js"></script>
+<script>
+  let feed = new Instafeed({
+    get: 'tagged',
+    tagName: 'henleyrebecca', // Ex:  'cat'
+    accessToken: '618202627.700e548.a26ef91e8b724de2909446a189e64598'
+  });
+  feed.run();
+</script>
 
 </body>
 </html>
