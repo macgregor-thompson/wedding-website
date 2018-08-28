@@ -21,23 +21,37 @@
     .visible-xl, .visible-lg, .visible-md, .visible-sm {
         display: none;
     }
+
     .visible-xs {
         display: block;
     }
+
     .hidden-xs {
         display: none;
     }
+
     .gallery-nav h1 {
         font-size: 1rem;
     }
+
     .gallery-nav h5 {
         font-size: .75rem;
     }
+
     .gallery-nav h5.click {
         font-size: .5rem;
     }
+
     .navbar-page-title {
         font-size: 1.5rem;
+    }
+
+    .bus-table{
+         font-size: .9rem !important;
+     }
+
+    .bus-table h4 {
+        font-size: 1.2rem !important;
     }
 }
 
@@ -46,15 +60,19 @@
     .visible-xl, .visible-lg, .visible-md, .visible-xs {
         display: none;
     }
+
     .visible-sm {
         display: block;
     }
+
     .hidden-sm {
         display: none;
     }
+
     .gallery-nav h1 {
         font-size: 1.75rem;
     }
+
     .gallery-nav h5 {
         font-size: 1rem;
     }
@@ -65,30 +83,39 @@
     .top-nav a {
         font-size: 1rem;
     }
+
     .top-nav a:hover {
         font-size: 1.25rem;
     }
+
     .top-nav a.event-details:hover {
         padding: .5rem 0.15rem 0;
     }
+
     .top-nav a.accommodations:hover {
         padding: .5rem 0.1rem 0;
     }
+
     .top-nav a.transportation:hover {
         padding: .5rem 0.2rem 0;
     }
+
     .top-nav a.registry:hover {
         padding: .5rem 0.54rem 0;
     }
+
     .top-nav a.gallery:hover {
         padding: .5rem 0.62rem 0;
     }
+
     .visible-xl, .visible-lg, .visible-sm, .visible-xs {
         display: none;
     }
+
     .visible-md {
         display: block;
     }
+
     .hidden-md {
         display: none;
     }
@@ -99,30 +126,39 @@
     .top-nav a {
         font-size: 1.50rem;
     }
+
     .top-nav a:hover {
         font-size: 1.75rem;
     }
+
     .top-nav a.event-details:hover {
         padding: .5rem 0.15rem 0;
     }
+
     .top-nav a.accommodations:hover {
         padding: .5rem 0.1rem 0;
     }
+
     .top-nav a.transportation:hover {
         padding: .5rem 0.2rem 0;
     }
+
     .top-nav a.registry:hover {
         padding: .5rem 0.54rem 0;
     }
+
     .top-nav a.gallery:hover {
         padding: .5rem 0.62rem 0;
     }
+
     .visible-xl, .visible-md, .visible-sm, .visible-xs {
         display: none;
     }
+
     .visible-lg {
         display: block;
     }
+
     .hidden-lg {
         display: none;
     }
@@ -133,30 +169,39 @@
     .top-nav a {
         font-size: 1.75rem;
     }
+
     .top-nav a:hover {
         font-size: 2rem;
     }
+
     .top-nav a.event-details:hover {
         padding: .5rem 0.15rem 0;
     }
+
     .top-nav a.accommodations:hover {
         padding: .5rem 0.1rem 0;
     }
+
     .top-nav a.transportation:hover {
         padding: .5rem 0.2rem 0;
     }
+
     .top-nav a.registry:hover {
         padding: .5rem 0.54rem 0;
     }
+
     .top-nav a.gallery:hover {
         padding: .5rem 0.62rem 0;
     }
+
     .visible-lg, .visible-md, .visible-sm, .visible-xs {
         display: none;
     }
+
     .visible-xl {
         display: block;
     }
+
     .hidden-xl {
         display: none;
     }
@@ -180,6 +225,7 @@
     .top-nav a {
         color: #fff;
     }
+
     .top-nav a:hover, .top-nav a:active {
         color: #b4b4b4;
     }

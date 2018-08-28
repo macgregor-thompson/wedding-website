@@ -305,151 +305,160 @@
             </div>
 
             <div class="row justify-content-center bottom-space-15">
-                <div class="col-md-2 col-sm-3">
+                <div class="col-md-2 col-sm-3 hidden-xs">
                     <img src="http://images.pcmac.org//images/Users/mbharaj@lawrence.k12.ny.us/bus-animation.gif"
                          class="img-fluid">
                 </div>
-                <div class="col-md-6 col-xs-8 arial">
-                    <h1 class="text-center top-space-15">
+                <div class="col-md-8 col-sm-6 arial">
+                    <h1 class="text-center top-space-15 hidden-sm">
                         <span class="badge badge-primary arial">
                             <i class="fas fa-bus"></i>
                             Bus Schedule
                             <i class="fas fa-bus"></i>
                         </span>
                     </h1>
+                    <h2 class="text-center top-space-15 visible-sm">
+                        <span class="badge badge-primary arial">
+                            <i class="fas fa-bus"></i>
+                            Bus Schedule
+                            <i class="fas fa-bus"></i>
+                        </span>
+                    </h2>
                 </div>
-                <div class="col-md-2 col-sm-3 ">
+                <div class="col-md-2 col-sm-3 hidden-xs">
                     <img src="img/event/trolley.jpg" class="img-thumbnail">
                 </div>
             </div>
 
-            <table class="table table-sm bus-table arial">
-                <thead>
-                <tr>
-                    <th scope="col" class="text-center"><i class="fas fa-bus"></i></th>
-                    <th scope="col" class="text-center">Pickup</th>
-                    <th scope="col" class="text-center">Destination</th>
-                    <th scope="col" class="text-center">Arrives</th>
-                    <th scope="col" class="text-center">Departs</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row" class="text-center">Bus 1</th>
-                    <td class="text-center">Sheraton Hotel</td>
-                    <td class="text-center">Seacoast Science Center</td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-success arial">
-                                4:15pm
-                            </span>
-                        </h4>
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-warning arial">
-                                4:30pm
-                            </span>
-                        </h4>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row" class="text-center">Bus 2</th>
-                    <td class="text-center">Hilton Garden Inn</td>
-                    <td class="text-center">Seacoast Science Center</td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-success arial">
-                                4:15pm
-                            </span>
-                        </h4>
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-warning arial">
-                                4:30pm
-                            </span>
-                        </h4>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row" class="text-center">
-                        Bus 3
-                    </th>
-                    <td class="text-center">
-                        Sheraton Hotel
-                        <br>
-                        <span class="badge badge-primary">THEN</span>
-                        <br>
-                        Hilton Garden Inn
-                    </td>
-                    <td class="text-center">Seacoast Science Center</td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-success arial">
-                                4:30pm
-                            </span>
-                        </h4>
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-danger arial">
-                                4:45pm
-                                <br>
-                                <small>(last bus)</small>
-                            </span>
-                        </h4>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row" class="text-center">Bus 1</th>
-                    <td class="text-center">
-                        Seacoast Science Center
-                    </td>
-                    <td class="text-center">
-                        Sheraton Hotel & Hilton Garden Inn
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-success arial">
-                                10:00pm
-                            </span>
-                        </h4>
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-warning arial">
-                                10:15pm
-                            </span>
-                        </h4>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row" class="text-center">All 3 Buses</th>
-                    <td class="text-center">
-                        Seacoast Science Center
-                    </td>
-                    <td class="text-center">
-                        Sheraton Hotel &
-                        Hilton Garden Inn
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-success arial">
-                                11:00pm
-                            </span>
-                        </h4>
-                    </td>
-                    <td class="text-center">
-                        <h4>
-                            <span class="badge badge-warning arial">
-                                11:15pm
-                            </span>
-                        </h4>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive">
+                <table class="table table-bordered table-sm bus-table arial">
+                    <thead>
+                    <tr class="bg-dark text-white">
+                        <th scope="col" class="text-center"><i class="fas fa-bus"></i></th>
+                        <th scope="col" class="text-center">Pickup</th>
+                        <th scope="col" class="text-center hidden-xs">Destination</th>
+                        <th scope="col" class="text-center">Arrives</th>
+                        <th scope="col" class="text-center">Departs</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr class="table-primary">
+                        <th scope="row" class="text-center">Bus 1</th>
+                        <td class="text-center">Sheraton Hotel</td>
+                        <td class="text-center hidden-xs">Seacoast Science Center</td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-success arial">
+                                    4:15pm
+                                </span>
+                            </h4>
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-warning arial">
+                                    4:30pm
+                                </span>
+                            </h4>
+                        </td>
+                    </tr>
+                    <tr class="table-primary">
+                        <th scope="row" class="text-center">Bus 2</th>
+                        <td class="text-center">Hilton Garden Inn</td>
+                        <td class="text-center hidden-xs">Seacoast Science Center</td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-success arial">
+                                    4:15pm
+                                </span>
+                            </h4>
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-warning arial">
+                                    4:30pm
+                                </span>
+                            </h4>
+                        </td>
+                    </tr>
+                    <tr class="table-primary">
+                        <th scope="row" class="text-center">
+                            Bus 3
+                        </th>
+                        <td class="text-center">
+                            Sheraton Hotel
+                            <br>
+                            <span class="badge badge-primary">THEN</span>
+                            <br>
+                            Hilton Garden Inn
+                        </td>
+                        <td class="text-center hidden-xs">Seacoast Science Center</td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-success arial">
+                                    4:30pm
+                                </span>
+                            </h4>
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-danger arial">
+                                    4:45pm
+                                    <br>
+                                    <small>(last bus)</small>
+                                </span>
+                            </h4>
+                        </td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row" class="text-center">Bus 1</th>
+                        <td class="text-center">
+                            Seacoast Science Center
+                        </td>
+                        <td class="text-center hidden-xs">
+                            Sheraton Hotel & Hilton Garden Inn
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-success arial">
+                                    10:00pm
+                                </span>
+                            </h4>
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-warning arial">
+                                    10:15pm
+                                </span>
+                            </h4>
+                        </td>
+                    </tr>
+                    <tr  class="table-danger">
+                        <th scope="row" class="text-center">All 3 Buses</th>
+                        <td class="text-center">
+                            Seacoast Science Center
+                        </td>
+                        <td class="text-center hidden-xs">
+                            Sheraton Hotel & Hilton Garden Inn
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-success arial">
+                                    11:00pm
+                                </span>
+                            </h4>
+                        </td>
+                        <td class="text-center">
+                            <h4>
+                                <span class="badge badge-warning arial">
+                                    11:15pm
+                                </span>
+                            </h4>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
 
 
             <div class="alert alert-warning transport-alert" role="alert">
